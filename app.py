@@ -10,6 +10,9 @@ def index():
 def JackRC():
 	return render_template('JackRC.html')
 
+@app.route('/IIJohnN')
+def IIJohnN():
+	return render_template('IIJohnN.html')
 
 @app.route('/JohnC')
 def JohnC():
