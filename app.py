@@ -48,3 +48,7 @@ def Maddix():
 @app.route('/Jakobi')
 def Jakobi(): 
 	return render_template('jakobi.html')
+
+@app.route('/Peyton')
+def Peyton(): 
+	return render_template('Peyton.html')
