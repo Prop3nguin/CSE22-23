@@ -32,6 +32,10 @@ def Paul():
 def Jacob():
 	return render_template('Jacob.html')
 
+@app.route('/JacobII')
+def JacobII():
+	return render_template('JacobII.html')
+
 @app.route('/JohnN')
 def JohnN():
     	return render_template('JohnN.html')
